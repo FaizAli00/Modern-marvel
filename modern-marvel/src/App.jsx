@@ -7,7 +7,6 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Home Route that also includes Vision */}
         <Route
           path="/"
           element={

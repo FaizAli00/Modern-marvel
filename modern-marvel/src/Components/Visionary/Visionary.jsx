@@ -6,7 +6,7 @@ const Visionary = () => {
   return (
     <>
       <div className=" lg:mt-[100px] px-6 md:px-12 lg:px-[70px]">
-        <div className=" pl-18 md:pr-16">
+        <div className=" pl-28 md:pr-16">
           <h1 className="text-customVision font-thin font-CanelaTrial sm:leading-[60px] md:leading-[100px] lg:leading-[130px] text-4xl sm:text-3xl md:text-6xl lg:text-[130px] md:pl-24 lg:pl-44 text-center lg:text-left">
             MEET
           </h1>

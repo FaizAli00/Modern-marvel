@@ -2,7 +2,6 @@ import React from "react";
 import listingphoto2 from "../../assets/images/listingphoto2.png";
 import listingphoto3 from "../../assets/images/listingphoto3.png";
 import line1 from "../../assets/images/line1.png";
-import icons from "../../assets/images/icons.png";
 import listingphoto4 from "../../assets/images/listingphoto4.png";
 import listingphoto5 from "../../assets/images/listingphoto5.png";
 import listingphoto6 from "../../assets/images/listingphoto6.png";
@@ -101,7 +100,7 @@ const Vision = () => {
           <img
             src={listingphoto5}
             alt="Home Interior"
-            className="w-full max-w-sm md:max-w-md lg:max-w-full object-cover"
+            className="w-full max-w-sm h-[580px] md:max-w-md lg:max-w-full object-cover"
           />
         </div>
 
@@ -139,7 +138,7 @@ const Vision = () => {
           />
         </div>
 
-        <div className="flex flex-col md:items-center gap-8 md:gap-10 lg:gap-[60px] lg:mt-[60px] font-AdobeGaramondPro font-normal leading-6 md:leading-7 lg:leading-8 text-sm md:text-base text-customVision">
+        <div className="flex flex-col lg:items-start md:items-center sm:items-center gap-8 sm:gap-10 lg:gap-[60px] lg:mt-[60px] font-AdobeGaramondPro font-normal leading-6 md:leading-7 lg:leading-8 text-sm md:text-base text-customVision">
           <p className="mx-auto text-center lg:text-left">
             This brand-new modern all glass construction in the{" "}
             <br className="hidden md:block" />
@@ -172,7 +171,7 @@ const Vision = () => {
             counter space plus another auxiliary kitchen.
           </p>
 
-          <div className=" w-[276px] h-[98px] flex flex-col items-center md:items-center gap-[25px] mb-6">
+          <div className=" w-[276px] h-[98px] flex flex-col lg:items-start sm:items-center gap-[25px] mb-6">
             <div className="flex flex-wrap justify-center md:justify-center gap-[30px]">
               <h1 className="font-CanelaTrial font-medium text-sm text-center">
                 10,000 sq.ft. <br />
@@ -194,7 +193,7 @@ const Vision = () => {
               </h1>
             </div>
 
-            <div className="flex pr-6 flex-wrap justify-center md:justify-center gap-[30px]">
+            <div className="flex flex-wrap justify-center md:justify-center gap-[30px]">
               <h1 className="font-CanelaTrial flex flex-col font-medium text-sm text-center">
                 6,500 sq ft <br />
                 <span className="font-AdobeGaramondPro flex font-normal italic">
@@ -207,7 +206,7 @@ const Vision = () => {
                   Bedrooms
                 </span>
               </h1>
-              <h1 className="font-CanelaTrial flex flex-col items-start font-medium text-sm text-center">
+              <h1 className="font-CanelaTrial pl-2 flex flex-col items-start font-medium text-sm text-center">
                 7,5 <br />
                 <span className="font-AdobeGaramondPro font-normal italic">
                   Bathrooms

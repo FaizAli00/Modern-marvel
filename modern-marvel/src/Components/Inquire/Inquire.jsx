@@ -21,8 +21,23 @@ const Inquire = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
+  
+    const subject = "Inquiry Form Submission";
+    const body = `
+      First Name: ${formData.firstName}
+      Last Name: ${formData.lastName}
+      Email: ${formData.email}
+      Address: ${formData.apt}, ${formData.city}, ${formData.state}, ${formData.zipCode}
+      Move-In Date: ${formData.moveInDate}
+      Additional Notes: ${formData.additionalNotes}
+    `;
+    const mailtoLink = `mailto:Nader@dlbrugs.com?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+  
+    window.location.href = mailtoLink;
   };
+  
 
   return (
     <>
@@ -113,7 +128,7 @@ const Inquire = () => {
               CONTACT EMAIL
             </strong>{" "}
             <br />
-            <span className="font-AdobeGaramondPro">Nadir@dlbrusgs.com</span>
+            <span className="font-AdobeGaramondPro">Nadir@dlbrugs.com</span>
           </p>
           <p className="text-customGray">
             <strong className="text-sm font-GTAmericaTrial font-medium leading-[14px]">
